@@ -34,14 +34,36 @@ h2 a {
   display: flex;
   justify-content: center;
   width: 80%;
-  margin: 30px;
+  margin-bottom: 10px;
+  margin-left: 25px;
 }
 #pond {
   display: flex;
   justify-content: flex-start;
   justify-content: space-between;
   }
-
+.ContentPlayer {
+  margin-bottom: 5px;
+}
+.Text-Artist {
+  margin-bottom: 5px;
+}
+.button-artist {
+  padding: 0px 15px;
+  border: 1px solid #303030;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  background-color: #303030;
+  font: helvetica;
+  font-style: normal;
+  font-variant: normal;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .BlocPlaylist {
   height: 550px;
   width: 250px;
@@ -52,18 +74,44 @@ h2 a {
   color: white;
   font-family: sans-serif;
   font: helvetica
+  display:flex;
+  justify-content: center;
+  justify-content: space-between;
 }
 .ContentPlaylist {
   display: flex;
   justify-content: center;
   width: 80%;
-  margin: 30px;
+  margin-top: 10px;
+  display: inline-block;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 #pond {
   display: flex;
   justify-content: flex-start;
   justify-content: space-between;
   }
+  .button-wrapper-playlist {
+    padding: 0px 15px;
+    border: 1px solid #303030;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    background-color: #303030;
+    font: helvetica;
+    font-style: normal;
+    font-variant: normal;
+  }
+h4{
+  color: white;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
 
 .BlocEvent {
     height: 550px;
@@ -76,19 +124,42 @@ h2 a {
       font-family: sans-serif;
       font: helvetica;
     }
-    .ContentBlocEvent {
-      display: flex;
-      justify-content: center;
-      width: 80%;
-      margin: 30px;
-    }
     #pond {
       display: flex;
       justify-content: flex-end;
       justify-content: space-between;
       }
+      .ContentEvent {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+      }
 
       .imagevitalic {
-        width: 100%
+        width: 100%;
+        margin-top: 10px;
 
       }
+      .button-event {
+        padding: 0px 15px;
+        border: 1px solid #303030;
+        border-radius: 3px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        background-color: #303030;
+        font: helvetica;
+        font-style: normal;
+        font-variant: normal;
+      }
+    h4{
+      color: white;
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: normal;
+    }
+    .Text-Event{
+      margin-top: 3px;
+    }

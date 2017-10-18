@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <title>ASAPPMUSIC</title>
   <link rel="stylesheet" href="style.css">
-<!--  <script src="script.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -20,11 +21,19 @@
 <div class="BlocTout">
     <div class="BlocArtiste"><h3>L'ARTISTE DU MOMENT</h3>
         <div class="ContentArtiste">
-          <img src="SpriNoir.jpg">
+          <a href="SpriNoir"><img src="SpriNoir.jpg"></a>
         </div>
-
         <div class="ContentPlayer">
-          <iframe src="https://open.spotify.com/embed?uri=spotify:album:2j5MSLaz7KhayWIY9DNGQC" width="200" height="290" frameborder="0" allowtransparency="true"></iframe>
+          <iframe src="https://open.spotify.com/embed?uri=spotify:album:2j5MSLaz7KhayWIY9DNGQC" width="200" height="90" frameborder="0" allowtransparency="true"></iframe>
+        </div>
+        <div class="Text-Artist">
+          <h5>« Je n’étais pas prédestiné à rapper », s’étonne encore S.Pri Noir. Son rêve, c’était devenir
+            un grand joueur de football. Tout a commencé en 2009 avec son cousin Blame qui l’embarque dans
+            un petit studio d’enregistrement à Belleville (19e) et l’enfant du 20e arrondissement de Paris
+            pose sa ...</h5>
+        </div>
+        <div class="button-artist">
+            <a class="cta-artist" href="#"><h4>Learn more</h4></a>
         </div>
   </div>
 
@@ -33,14 +42,25 @@
       <div class="Contentplayer">
         <iframe src="https://open.spotify.com/embed?uri=spotify:user:spotify:playlist:37i9dQZF1DX42c5TkSUfEb" width="200" height="380" frameborder="0" allowtransparency="true"></iframe>
     </div>
+    <div class="button-wrapper-playlist">
+        <a class="cta-playlist" href="#"><h4>Show the playlist</h4></a>
+    </div>
+
   </div>
   </div>
 
   <div class="BlocEvent"><h3>LE CONCERT DU MOIS</h3>
       <div class="ContentEvent">
         <img src="vitalic.jpg" class="imagevitalic">
-
       </div>
+        <div class="Text-Event">
+        <h5>Depuis maintenant une bonne quinzaine d’années, le français Vitalic (Pascal ARBEZ-NICOLAS de son
+          vrai nom) s’est employé à redéfinir ...
+        </h5>
+        <div class="button-event">
+            <a class="cta-event" href="#"><h4>Tell me more</h4></a>
+        </div>
+        </div>
   </div>
 
   </body>
