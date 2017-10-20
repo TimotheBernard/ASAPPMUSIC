@@ -175,19 +175,24 @@ h4{
 
 .music {
 width: 1000px;
-height: 70px;
+height: 150px;
 border-radius: 3px;
-background-color: white;
+background-color: black;
 font-family: sans-serif;
+padding-top: 15px;
+justify-content: space-between;
 }
 
 .myartist {
-  color: black;
+  color: white;
 }
 
 .iframe {
 width: 100%;
-
+justify-content: center;
+justify-content: space-around;
+text-align: center;
+padding: 400px;
 }
 
 @media (max-width:600px) {
@@ -198,4 +203,26 @@ width: 100%;
 h2{
   color: white;
 
+}
+.Spotify {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  float: left;
+  display: inline-block;
+  padding-right: 20px;
+}
+.myinfos {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Battle {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.Vote {
+  background-color: #303030
 }
