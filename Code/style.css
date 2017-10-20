@@ -17,11 +17,12 @@ h2 a {
 
 .BlocTout{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+
 }
 .BlocArtiste {
   height: 550px;
-  width: 250px;
   background-color:grey;
   padding: 10px;
   margin: 20px;
@@ -66,7 +67,6 @@ h2 a {
 }
 .BlocPlaylist {
   height: 550px;
-  width: 250px;
   margin: 20px;
   background-color: grey;
   padding: 10px;
@@ -81,11 +81,15 @@ h2 a {
 .ContentPlaylist {
   display: flex;
   justify-content: center;
-  width: 80%;
+  width: 100%;
+  height: 100%
   margin-top: 10px;
   display: inline-block;
   margin-bottom: 5px;
   padding-bottom: 5px;
+}
+.Contentplayer {
+  margin-top: 0px;
 }
 #pond {
   display: flex;
@@ -115,7 +119,6 @@ h4{
 
 .BlocEvent {
     height: 550px;
-    width: 250px;
     margin: 20px;
     background-color: grey;
     padding: 10px;
@@ -136,7 +139,8 @@ h4{
       }
 
       .imagevitalic {
-        width: 100%;
+        width: 80%;
+        height: 100%
         margin-top: 10px;
 
       }
@@ -163,3 +167,35 @@ h4{
     .Text-Event{
       margin-top: 3px;
     }
+
+.column {
+  min-width: 200px;
+  width: 25%;
+}
+
+.music {
+width: 1000px;
+height: 70px;
+border-radius: 3px;
+background-color: white;
+font-family: sans-serif;
+}
+
+.myartist {
+  color: black;
+}
+
+.iframe {
+width: 100%;
+
+}
+
+@media (max-width:600px) {
+  .column {
+    width:100%;
+  }
+}
+h2{
+  color: white;
+
+}

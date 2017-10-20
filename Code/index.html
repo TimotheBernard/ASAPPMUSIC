@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>ASAPPMUSIC</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="jquery.js"></script>
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <h1>ASAPPMUSIC</h1>
+  <h2><id="menu_horizontal">
+    <center>
+      <a href="Artist">Artist</a>
+      <a href="Playlist">Playlist</a>
+      <a href="Events">Events</a>
+      <a href="Label">Label</label></a>
+    </center>
+  </h2>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div class="BlocTout" width="device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="BlocArtiste column"><h3>ARTISTE DU MOMENT</h3>
+        <div class="ContentArtiste">
+          <a href="SpriNoir"><img src="SpriNoir.jpg" width="100%" height="100%"></a>
+        </div>
+        <div class="ContentPlayer">
+          <iframe src="https://open.spotify.com/embed?uri=spotify:album:2j5MSLaz7KhayWIY9DNGQC" width="100%"
+          height="90" frameborder="0" allowtransparency="true"></iframe>
+        </div>
+        <div class="Text-Artist">
+          <h5>« Je n’étais pas prédestiné à rapper », s’étonne encore S.Pri Noir. Son rêve, c’était devenir
+            un grand joueur de football. Tout a commencé en 2009 avec son cousin Blame qui l’embarque dans
+            un petit studio d’enregistrement à Belleville (19e) et l’enfant du 20e arrondissement de Paris
+            pose sa ...</h5>
+        </div>
+        <div class="button-artist">
+            <a class="cta-artist" href="#"><h4>Learn more</h4></a>
+        </div>
+  </div>
+
+  <div class="BlocPlaylist column"><h3>LA PLAYLIST DE LA SEMAINE</h3>
+    <div class="ContentPlaylist" display:flex>
+      <div class="Contentplayer">
+        <iframe src="https://open.spotify.com/embed?uri=spotify:user:spotify:playlist:37i9dQZF1DX42c5TkSUfEb"
+        width="100%" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </div>
+        <div class="button-wrapper-playlist">
+        <a class="cta-playlist" href="#"><h4>Show the playlist</h4></a>
+        </div>
+    </div>
+  </div>
+
+  <div class="BlocEvent column"><h3>LE CONCERT DU MOIS</h3>
+      <div class="ContentEvent">
+        <img src="vitalic.jpg" class="imagevitalic">
+      </div>
+        <div class="Text-Event">
+          <h5>Depuis maintenant une bonne quinzaine d’années, le français Vitalic (Pascal ARBEZ-NICOLAS de
+            son vrai nom) s’est employé à redéfinir ...
+          </h5>
+        </div>
+        <div class="button-event">
+          <a class="cta-event" href="#"><h4>Tell me more</h4></a>
+        </div>
+  </div>
+<div id="placeholder" class="Vote">
+<script id="template" type="text/x-jquery-tmpl"> // ${fields[""]}
+<div class="music">
+    <div class="myinfos">
+      <h2 class="myartist">Artist: ${fields["artist"]} Title: ${fields["title"]}
+<div class"iframe">
+<iframe src="${fields["spotify-link"]}"
+ frameborder="0" allowtransparency="true"></iframe>
+</div>
+        </h2>
+    </div>
+</div>
+</script>
+</div>
+  </body>
+  </html>
